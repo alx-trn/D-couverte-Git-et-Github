@@ -43,3 +43,16 @@ Connaitre l'adresse de mon dépôt
 git remote --verbose
 git remote -v
 ```
+
+- push LOCAL -> DISTANT
+- push DISTANT -> LOCAL
+
+# Je veux changer l'adresse du dépôt distant
+
+- Solution 1:
+    - Supprimer l'adresse et refaire un git remote add
+
+```sh
+git remote rm origin
+git remote add origin <nouvelle_adresse_internet>
+```
