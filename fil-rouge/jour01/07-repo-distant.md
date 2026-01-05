@@ -53,6 +53,7 @@ git remote -v
     - Supprimer l'adresse et refaire un git remote add
 
 ```sh
+#rm => remove l'adresse de liaisonnsur ble dépôt 
 git remote rm origin
 git remote add origin <nouvelle_adresse_internet>
 ```
