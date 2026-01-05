@@ -26,3 +26,20 @@ git commit -m "feat(home) formulaire newslatter"
 git push
 
 Regarder sur le github si le commit a bien été ajouté
+
+---
+
+# Git remote
+
+- Permet de faire une liaison entre les REPO local et le REPO distant
+
+```sh
+git remote add origin <adresse_internet>
+```
+
+Connaitre l'adresse de mon dépôt
+
+```sh
+git remote --verbose
+git remote -v
+```
